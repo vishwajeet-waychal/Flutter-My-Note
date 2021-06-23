@@ -1,3 +1,4 @@
+
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -10,6 +11,8 @@ import 'package:notes_app/screen_transition/page_transition_effect.dart';
 import 'package:notes_app/screens/my_notes.dart';
 import 'package:notes_app/services/auth.dart';
 import 'package:notes_app/services/database.dart';
+
+import 'go.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -288,7 +291,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
                           },
                         ),
                       ),
-                      SizedBox(height: 40,)
+                      SizedBox(height: 40,),
                     ],
                   ),
                 ),
